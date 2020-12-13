@@ -10,13 +10,16 @@ jobs:
     steps:
      - name: checkout project
        uses: actions/checkout@v2
+
      - name: setup node version
        uses: actions/setup-node@v1
        with:
          node-version: '12'
+
      - name: resolve dependencies
-       run: npm ci  
+       run: npm ci
+
      - name: running tests
-        run: npm test -- --coverage
-        env:
-          CI: true
+       run: npm test -- --coverage
+       env:
+         CI: true
