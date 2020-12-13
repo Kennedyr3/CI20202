@@ -1,3 +1,9 @@
+![CI](https://github.com/Kennedyr3/CI20202/workflows/CI/badge.svg?branch=master)
+
+# Projeto GitHub Actions
+
+Esse projeto tem o objetivo de ensinar Continous Integration para a turma de Engenharia de Software II da Unijuazeiro.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
